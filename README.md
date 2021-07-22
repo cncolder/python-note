@@ -15,6 +15,15 @@ pyenv local 3.9.6
 pip install black
 ```
 
+Config black to skip string quote.
+
+```json
+    // vscode settings.json
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization"
+    ],
+```
+
 ### Install jupyter package
 
 ```shell
